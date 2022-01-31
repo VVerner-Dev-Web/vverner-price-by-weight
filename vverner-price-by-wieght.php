@@ -4,7 +4,7 @@
  * Description: Este plugin permite a venda por peso dos produtos através do WooCommerce
  * Author: VVerner
  * Author URI: https://vverner.com/
- * Version: 1.0
+ * Version: 2.0
  */
 
  define('PBW_FILE', __FILE__);

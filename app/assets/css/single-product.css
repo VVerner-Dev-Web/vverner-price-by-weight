@@ -1,0 +1,13 @@
+.pbw-instance::before {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.pbw-instance {
+    margin-bottom: 20px;
+}
+
+.pbw-instance .selector {
+    margin-top: 20px;
+}
