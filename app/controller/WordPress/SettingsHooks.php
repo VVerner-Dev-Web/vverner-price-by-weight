@@ -1,6 +1,6 @@
 <?php
 
-namespace PBW\Wordpress;
+namespace PBW\WordPress;
 
 defined('ABSPATH') || exit('No direct script access allowed');
 

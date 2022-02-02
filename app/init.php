@@ -6,10 +6,10 @@ require_once PBW_APP . '/controller/Product.php';
 
 require_once PBW_APP . '/controller/Webpratice/TgaHooks.php';
 
-require_once PBW_APP . '/controller/Woocommerce/ProductHooks.php';
-require_once PBW_APP . '/controller/Woocommerce/CartHooks.php';
-require_once PBW_APP . '/controller/Woocommerce/CheckoutHooks.php';
-require_once PBW_APP . '/controller/Woocommerce/FrontendHooks.php';
+require_once PBW_APP . '/controller/WooCommerce/ProductHooks.php';
+require_once PBW_APP . '/controller/WooCommerce/CartHooks.php';
+require_once PBW_APP . '/controller/WooCommerce/CheckoutHooks.php';
+require_once PBW_APP . '/controller/WooCommerce/FrontendHooks.php';
 
-require_once PBW_APP . '/controller/Wordpress/AssetsHooks.php';
-require_once PBW_APP . '/controller/Wordpress/SettingsHooks.php';
+require_once PBW_APP . '/controller/WordPress/AssetsHooks.php';
+require_once PBW_APP . '/controller/WordPress/SettingsHooks.php';
