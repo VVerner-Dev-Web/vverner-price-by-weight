@@ -52,7 +52,7 @@ class CartHooks
         $product = pbw_getProduct($item['product_id']);
 
         if ($product->isActive()) :
-            $price = $product->isKgPriceVisible() ? wc_price($product->get_price()) . '/kg' : '---';
+            $price = $product->isKgPriceVisible() ? wc_price($product->getPrice()) . '/kg' : '---';
         endif;
 
         return $price;
