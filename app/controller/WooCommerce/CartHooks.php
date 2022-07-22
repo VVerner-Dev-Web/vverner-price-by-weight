@@ -84,7 +84,20 @@ class CartHooks
 
     private function isCartItemSoldByWeight(array $item): bool
     {
-        return isset($item['pbw']);
+        if (!isset($item['pbw'])) :
+            return false;
+        endif;
+
+        $quantity = $item['pbw']['method'] === 'quantity' || $item['pbw']['method'] === 'und' ? true : false;
+        $weight   = $item['pbw']['method'] === 'weight' || $item['pbw']['method'] === 'kg' ? true : false;
+        
+        if ($weight) :
+            return true;
+        elseif ($quantity) :
+            return false;
+        endif;
+
+        return false;
     }
 }
 
